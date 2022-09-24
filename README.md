@@ -43,7 +43,7 @@ DB_NAME=auth
 
 3. The token will be use when you make request to protected routes. Put the token in your header of request as Authorization. These is examples of protected routes:
 
-    * http://localhost:3000/admin/dashboar
+    * http://localhost:3000/admin/dashboard
     * http://localhost:3000/admin/users
 
 
