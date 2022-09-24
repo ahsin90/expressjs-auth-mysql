@@ -4,11 +4,11 @@ Simple authentication in NodeJS and ExpressJS framework using Json Web Token (JW
 
 ## How to use?
 * Please download or clone the project first.
-* Make sure mysql and nodejs have installed in your computer.
+* Make sure mysql and nodejs has installed in your computer.
 * Create a database in your computer. For an example i had named it with "auth".
 * Create .env file anf fill it with configuration (see .env configuration).
-* Open project using console and run ```console npm install ``` in your root project.
-* Than run project ```console npm run dev ```
+* Open project using console and run ```npm install ``` in your root project.
+* Than run project ```npm run dev ```
 * Use API tools such as Postman, cURL, etc.
 
 ## .env configuration
