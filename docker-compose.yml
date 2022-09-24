@@ -1,0 +1,18 @@
+version: "3"
+services:
+  backend:
+    restart: always
+    ports:
+      - "3000:3000"
+    image: "expressjwt"
+    container_name: "expressjwt"
+    environment:
+      - NODE_ENV="development"
+      - PORT=3000
+      - SECRET_KEY="eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImFoc2luLmFuZEBnbWFpbC5jb20iLCJpYXQiOjE2NjM5MTcwNjEsImV4c"
+      - DB_HOST="127.0.0.1"
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_NAME=auth
+    
