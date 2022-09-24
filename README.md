@@ -47,6 +47,12 @@ DB_NAME=auth
     * http://localhost:3000/admin/users
 
 
+## Run with Docker?
+Docker is a simple way to run the project, follow the instruction bellow:
+1. Build a Docker image that run ```docker build -t expressjwt .``` on your console and in project root.
+2. Run ```docker compose up```
+
+
 ## License
 
   [MIT](LICENSE)
