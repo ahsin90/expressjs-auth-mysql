@@ -39,6 +39,7 @@ DB_NAME=auth
         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFoc2luLmFuZEBnbWFpbC5jb20iLCJpYXQiOjE2NjQwMDA4NjksImV4cCI6MTY2NDA4NzI2OX0.herPUpd2LynXuSZewZUYOjVXgX-qcVautv3Z3Whydr4"
     }
 }
+```
 
 3. The token will be use when you make request to protected routes. Put the token in your header of request as Authorization. These is examples of protected routes:
 
